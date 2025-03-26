@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Response Connect</title>
+    <link rel="stylesheet" href="abi.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <div id="app">
+        <!-- App Header with Logo -->
+        <div id="header">
+            <img src="erc.jpg" alt="App Logo" class="logo">  <!-- Logo Added -->
+            <h1>🚑 Emergency Response Connect</h1>
+        </div>
+
+        <!-- Live Map -->
+        <div id="map"></div>
+
+        <!-- Emergency Buttons -->
+        <div id="buttons">
+            <button id="sosButton">🚨 SOS</button>
+            <button id="medicalButton">🏥 Medical</button>
+            <button id="policeButton">🚔 Police</button>
+            <button id="callButton">📞 Call</button>
+        </div>
+    </div>
+
+    <!-- Leaflet Map Library -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="abi.js"></script>
+</body>
+</html>
